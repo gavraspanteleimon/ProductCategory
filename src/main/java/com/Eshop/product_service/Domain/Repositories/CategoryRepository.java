@@ -1,8 +1,10 @@
 package com.Eshop.product_service.Domain.Repositories;
 
-import java.util.Locale.Category;
+
 
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.Eshop.product_service.Domain.Entities.Category;
 
 public interface CategoryRepository extends JpaRepository<Category,Integer>{
 
